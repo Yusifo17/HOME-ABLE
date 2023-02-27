@@ -1,0 +1,320 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.nav-top {
+  background-color: #a87048;
+  width: 100%;
+}
+.nav-top p {
+  padding: 13px 0;
+  font-size: 14px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-family: unset;
+  color: #EDE5DE;
+}
+
+nav .nav-ul ul li a {
+  padding: 10px;
+  color: #131313;
+}
+nav .nav-buton span {
+  padding: 10px;
+}
+nav .nav-buton span a {
+  padding: 12px 26px;
+  font-size: 15px;
+  background-color: #EDE5DE;
+  color: #131313;
+  font-weight: 500;
+  text-align: center;
+}
+nav .nav-buton span i {
+  font-size: 20px;
+  font-size: larger;
+}
+
+.nav-buton-1 {
+  display: none;
+}
+.nav-buton-1 span {
+  padding: 10px;
+}
+.nav-buton-1 span a {
+  padding: 12px 26px;
+  font-size: 15px;
+  background-color: #EDE5DE;
+  color: #131313;
+  font-weight: 500;
+  text-align: center;
+}
+.nav-buton-1 span i {
+  font-size: 20px;
+  font-size: larger;
+}
+
+.sarch-box {
+  padding: 20px;
+  margin-top: 15px;
+  background: #a87048;
+}
+.sarch-box i {
+  color: #EDE5DE;
+}
+.sarch-box input {
+  padding-left: 10px;
+  border: none;
+  outline: none;
+  width: 100%;
+  background: none;
+  color: #EDE5DE;
+}
+.sarch-box .search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer {
+  margin-top: 20px;
+  background-color: #131313;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  width: 100%;
+}
+footer .footer-menu-ul {
+  width: 100%;
+  margin-right: 0px;
+}
+footer .footer-menu-ul h1 {
+  padding-bottom: 30px;
+  color: #EDE5DE;
+  font-size: 40px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+footer .footer-menu-ul span {
+  color: #EDE5DE;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  height: 100%;
+}
+
+@media (max-width: 540px) {
+  .nav-top p {
+    font-size: 13px !important;
+  }
+  .nav-ul {
+    display: none;
+  }
+  .nav-buton {
+    display: none;
+  }
+  .nav-buton-1 {
+    display: block !important;
+  }
+  .nav-buton-1 .btn-1 {
+    display: none;
+  }
+}
+@media (max-width: 766px) {
+  .nav-ul {
+    display: none !important;
+  }
+  .nav-buton {
+    display: none;
+  }
+  .nav-buton-1 {
+    display: block !important;
+  }
+}
+@media (max-width: 990px) {
+  .nav-ul {
+    display: none !important;
+  }
+  .nav-buton {
+    display: none;
+  }
+  .nav-buton-1 {
+    display: block !important;
+  }
+}
+.bars-1 {
+  top: 0;
+  left: 0;
+  padding: 10px;
+  margin-left: 30px;
+}
+.bars-1 i {
+  font-size: 20px;
+  color: #131313;
+}
+
+.nav-1menu {
+  margin-top: 170px;
+  position: fixed;
+  top: 0;
+  left: -150px;
+  background-color: #a87048;
+  width: 150px;
+  height: 100vh;
+  padding: 15px 20px;
+  transition: 0.5s linear;
+}
+.nav-1menu h5 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.nav-1menu h5 a {
+  color: #EDE5DE;
+}
+.nav-1menu li {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.nav-1menu li a {
+  color: #EDE5DE;
+}
+.nav-1menu.active-menu {
+  left: 0px;
+}
+
+.ilk-text h1 {
+  font-size: 60px;
+  margin-top: 30%;
+  margin-bottom: 5%;
+}
+.ilk-text p {
+  margin-top: 20px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+.ilk-text h6 {
+  margin-top: 40px;
+}
+.ilk-text a {
+  padding: 10px 20px;
+  background-color: #a87048;
+  color: #fff;
+}
+
+.ilk-img {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.ilk-img img {
+  width: 100%;
+}
+
+.ilk {
+  background-color: #EDE5DE;
+}
+
+.cesid-img img {
+  width: 100%;
+}
+
+.cesid-text {
+  margin-top: 20px;
+}
+
+.cesid-adi {
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+
+.ilk-tanitim-img {
+  position: relative;
+}
+.ilk-tanitim-img img {
+  width: 100%;
+}
+
+.ilk-tanitim {
+  margin-top: 100px;
+}
+
+.ilk-tanitim-text {
+  margin-left: 20px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.ilk-tanitim-text h6 {
+  font-size: 22px;
+  color: #EDE5DE;
+  margin: 0;
+  margin-bottom: 3px;
+}
+.ilk-tanitim-text p {
+  color: #EDE5DE;
+  font-size: 10px;
+}
+
+.tek-cesid {
+  padding-top: 100px;
+  padding-bottom: 65px;
+}
+.tek-cesid h2 {
+  font-size: medium;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bitgiler-img img {
+  width: 100%;
+}
+
+.text-bitgiler-1 p {
+  font-size: 10px;
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.metbex-img img {
+  width: 100%;
+}
+
+.metbex-1 {
+  margin-top: 120px;
+  background-color: #a87048;
+}
+
+.metbex-text {
+  margin-top: 50px;
+  margin-left: 40px;
+}
+.metbex-text h2 {
+  margin-bottom: 10px;
+  color: #EDE5DE;
+}
+.metbex-text p {
+  margin-top: 10px;
+  margin-bottom: 50px;
+  color: #EDE5DE;
+}
+.metbex-text a {
+  background-color: rgba(250, 250, 250, 0.2);
+  padding: 15px 30px;
+  color: #EDE5DE;
+}/*# sourceMappingURL=styl.css.map */

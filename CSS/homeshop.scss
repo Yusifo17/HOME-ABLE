@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+@import "_header";
+@import "_footer";
+
+
+
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+
+
+a {
+  text-decoration: none;
+}
+
+
+
+body {
+  height: 100%;
+}
+
+@media(max-width:540px) {
+  .nav-top {
+    p {
+      font-size: 13px !important;
+    }
+  }
+
+  .nav-ul {
+    display: none;
+
+  }
+
+  .nav-buton {
+    display: none;
+  }
+
+  .nav-buton-1 {
+    display: block !important;
+
+    .btn-1 {
+      display: none;
+    }
+  }
+}
+
+@media(max-width:766px) {
+  .nav-ul {
+    display: none !important;
+  }
+
+  .nav-buton {
+    display: none;
+  }
+
+  .nav-buton-1 {
+    display: block !important;
+  }
+}
+
+@media(max-width:990px) {
+  .nav-ul {
+    display: none !important;
+  }
+
+  .nav-buton {
+    display: none;
+  }
+
+  .nav-buton-1 {
+    display: block !important;
+  }
+}
+
+@media(max-width:1024px) {}
+
+@media(min-width:1440px) {}
+
+
+$color: #a87048;
+$color1: #EDE5DE;
+
+
+// .left-menu{
+//   width: 200px;
+//   height: 500px;
+//   background-color: #000;
+//   padding-top: 20px;
+//   padding-bottom: 20px;
+//   position: fixed;
+//   a{
+//     padding: 20px;
+//   }
+// }
+
+
+.shop {
+  padding-left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+
+  p {
+    font-size: 13px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+}
+
+.shop-img {
+  img {
+    width: 100%;
+  }
+}
+
+.shop-text {
+  padding-left: 20px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+
+  h6 {
+    margin-bottom: 5px;
+    margin-top: 15px;
+    font-size: 16px;
+
+  }
+
+  p {
+    font-size: 13px;
+    margin-bottom: 5px;
+
+  }
+
+  span {
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+  }
+}
+
+.bars-1 {
+
+  top: 0;
+  left: 0;
+  padding: 10px;
+  margin-left: 30px;
+
+  i {
+    font-size: 20px;
+    color: #131313;
+  }
+}
+
+.nav-1menu {
+  margin-top: 170px;
+  position: fixed;
+  top: 0;
+  left: -150px;
+  background-color: $color;
+  width: 150px;
+  height: 100vh;
+
+  padding: 15px 20px;
+  transition: .5s linear;
+
+  h5 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    a {
+      color: $color1;
+    }
+
+  }
+
+  li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    a {
+      color: $color1;
+    }
+  }
+
+  &.active-menu {
+    left: 0px;
+  }
+}

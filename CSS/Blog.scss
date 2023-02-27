@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+@import "_header";
+@import "_footer";
+
+
+
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+
+
+a {
+  text-decoration: none;
+}
+
+
+
+body {
+  height: 100%;
+}
+
+// media
+
+@media(max-width:540px) {
+  .nav-top {
+    p {
+      font-size: 13px !important;
+    }
+  }
+
+  .nav-ul {
+    display: none;
+
+  }
+
+  .nav-buton {
+    display: none;
+  }
+
+  .nav-buton-1 {
+    display: block !important;
+
+    .btn-1 {
+      display: none;
+    }
+  }
+}
+
+@media(max-width:766px) {
+  .nav-ul {
+    display: none !important;
+  }
+
+  .nav-buton {
+    display: none;
+  }
+
+  .nav-buton-1 {
+    display: block !important;
+  }
+}
+
+@media(max-width:990px) {
+  .nav-ul {
+    display: none !important;
+  }
+
+  .nav-buton {
+    display: none;
+  }
+
+  .nav-buton-1 {
+    display: block !important;
+  }
+}
+
+@media(max-width:1024px) {}
+
+@media(min-width:1440px) {}
+
+// media
+// esas reng
+
+$color: #a87048;
+$color1: #EDE5DE;
+
+
+// esas reng
+
+.metbex-img {
+  img {
+    width: 100%;
+  }
+}
+
+.metbex-1 {
+  margin-top: 40px;
+  background-color: $color;
+}
+
+.metbex-text {
+  margin-top: 30px;
+  margin-left: 20px;
+  padding-bottom: 30px;
+
+  h2 {
+    margin-bottom: 30px;
+    color: $color1;
+  }
+
+  p {
+    margin-bottom: 30px;
+    color: $color1;
+  }
+
+  a {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    background-color: #fafafa33;
+    padding: 15px 30px;
+    color: $color1;
+  }
+}
+
+.tanitm-img {
+
+  img {
+    width: 100%;
+  }
+}
+
+.stol {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+
+
+.bars-1 {
+
+  top: 0;
+  left: 0;
+  padding: 10px;
+  margin-left: 30px;
+
+  i {
+    font-size: 20px;
+    color: #131313;
+  }
+}
+
+.nav-1menu {
+  margin-top: 170px;
+  position: fixed;
+  top: 0;
+  left: -150px;
+  background-color: $color;
+  width: 150px;
+  height: 100vh;
+
+  padding: 15px 20px;
+  transition: .5s linear;
+
+  h5 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    a {
+      color: $color1;
+    }
+
+  }
+
+  li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    a {
+      color: $color1;
+    }
+  }
+
+  &.active-menu {
+    left: 0px;
+  }
+}
